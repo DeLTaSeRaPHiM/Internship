@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="235.0" prefWidth="370.0" xmlns="http://javafx.com/javafx/8.0.999-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="program.controllers.AddScreenController">
+   <children>
+      <Button fx:id="backBtn" layoutX="46.0" layoutY="174.0" mnemonicParsing="false" onAction="#onClickBackBtn" text="Отмена" />
+      <Button fx:id="addBtn" layoutX="260.0" layoutY="174.0" mnemonicParsing="false" onAction="#onClickAddBtn" text="Добавить" />
+      <Label layoutX="111.0" layoutY="101.0" text="Цена" />
+      <Label layoutX="111.0" layoutY="39.0" text="Название услуги" />
+      <TextField fx:id="priceField" layoutX="111.0" layoutY="118.0" />
+      <TextField fx:id="nameField" layoutX="111.0" layoutY="56.0" />
+   </children>
+</Pane>
